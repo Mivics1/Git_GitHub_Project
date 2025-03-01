@@ -1,7 +1,7 @@
-# Git & GitHub Guide for Beginners
+# Git & GitHub CLI Complete Guide
 
-## Introduction
-Git is a tool that helps you save different versions of your work, and GitHub is a website where you can store and share your Git projects.
+## Repository Overview
+This repository contains a beginner-friendly, step-by-step guide on using **Git and GitHub** via the command line. It is designed for absolute beginners who want to learn how to manage version control efficiently. The guide covers installation, setup, repository management, commits, pushing, pulling, branching, merging, undoing mistakes, and more!
 
 ## Step 1. Install Git
 
@@ -21,8 +21,8 @@ If you don't have Git installed, follow these steps:
 
 After installing Git, configure your identity:
 ```sh
-  git config --global user.name "Your Name: Agboola Michael Daramola"
-  git config --global user.email "your-email@example.com: agboola.daramola.001@student.uni.lu"
+  git config --global user.name "Your Name"
+  git config --global user.email "your-email@example.com"
 ```
 To check if it's set correctly:
 ```sh
@@ -102,7 +102,7 @@ If your project is already linked to GitHub and you want the latest changes:
   git pull origin main
 ```
 
-## Step 9. Work with Branches (Optional, Advanced)
+## Step 9. Work with Branches
 
 Branches allow you to work on different versions of your project.
 - Create a new branch:
@@ -112,6 +112,11 @@ Branches allow you to work on different versions of your project.
 - Switch to the new branch:
   ```sh
   git checkout new-feature
+  ```
+- Merge a branch into main:
+  ```sh
+  git checkout main
+  git merge new-feature
   ```
 - Push the branch to GitHub:
   ```sh
