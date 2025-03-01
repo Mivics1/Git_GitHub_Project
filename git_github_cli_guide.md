@@ -21,8 +21,8 @@ If you don't have Git installed, follow these steps:
 
 After installing Git, configure your identity:
 ```sh
-  git config --global user.name "Your Name"
-  git config --global user.email "your-email@example.com"
+  git config --global user.name "Your Name: Agboola Michael Daramola"
+  git config --global user.email "your-email@example.com: agboola.daramola.001@student.uni.lu"
 ```
 To check if it's set correctly:
 ```sh
