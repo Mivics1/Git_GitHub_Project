@@ -3,7 +3,7 @@
 ## Introduction
 Git is a tool that helps you save different versions of your work, and GitHub is a website where you can store and share your Git projects.
 
-## 1. Install Git
+## Step 1. Install Git
 
 If you don't have Git installed, follow these steps:
 - **Windows:** Download and install Git from [git-scm.com](https://git-scm.com/).
@@ -17,7 +17,7 @@ If you don't have Git installed, follow these steps:
   sudo yum install git  # For RedHat-based systems
   ```
 
-## 2. Set Up Git (One-Time Setup)
+## Step 2. Set Up Git (One-Time Setup)
 
 After installing Git, configure your identity:
 ```sh
@@ -29,7 +29,7 @@ To check if it's set correctly:
   git config --global --list
 ```
 
-## 3. Create a New Git Project
+## Step 3. Create a New Git Project
 
 1. Open Terminal or Command Prompt.
 2. Navigate to your project folder:
@@ -42,7 +42,7 @@ To check if it's set correctly:
    ```
    This creates a hidden `.git` folder where Git tracks changes.
 
-## 4. Add and Save Files
+## Step 4. Add and Save Files
 
 1. Check which files changed:
    ```sh
@@ -62,7 +62,7 @@ To check if it's set correctly:
    git commit -m "Added homepage design"
    ```
 
-## 5. Connect to GitHub
+## Step 5. Connect to GitHub
 
 1. Go to [GitHub](https://github.com) and create an account.
 2. Create a new repository (repo) on GitHub.
@@ -76,7 +76,7 @@ To check if it's set correctly:
    git remote -v
    ```
 
-## 6. Upload Your Code to GitHub
+## Step 6. Upload Your Code to GitHub
 
 1. Upload your commits to GitHub:
    ```sh
@@ -88,21 +88,21 @@ To check if it's set correctly:
    ```
 2. If asked, enter your GitHub username and password.
 
-## 7. Download (Clone) a GitHub Repository
+## Step 7. Download (Clone) a GitHub Repository
 
 If you want to copy a project from GitHub to your computer:
 ```sh
   git clone https://github.com/username/repository.git
 ```
 
-## 8. Get Latest Updates from GitHub
+## Step 8. Get Latest Updates from GitHub
 
 If your project is already linked to GitHub and you want the latest changes:
 ```sh
   git pull origin main
 ```
 
-## 9. Work with Branches (Optional, Advanced)
+## Step 9. Work with Branches (Optional, Advanced)
 
 Branches allow you to work on different versions of your project.
 - Create a new branch:
@@ -118,7 +118,7 @@ Branches allow you to work on different versions of your project.
   git push -u origin new-feature
   ```
 
-## 10. Undo Mistakes
+## Step 10. Undo Mistakes
 
 - Undo last commit (keep changes):
   ```sh
