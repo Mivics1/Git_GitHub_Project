@@ -21,13 +21,6 @@ This guide is perfect for:
 - Developers looking to improve their Git skills
 - Anyone who wants to understand Git & GitHub workflows
 
-## How to Use
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/Mivics1/Git_GitHub_Project.git
-   ```
-2. Open the `git_github_cli_complete_guide.md` file and follow the instructions step by step.
-
 ## Contributions
 Feel free to contribute by submitting pull requests or opening issues for improvements!
 
