@@ -4,7 +4,7 @@
 This repository contains a beginner-friendly, step-by-step guide on using **Git and GitHub** via the command line. It is designed for absolute beginners who want to learn how to manage version control efficiently. The guide covers installation, setup, repository management, commits, pushing, pulling, branching, merging, undoing mistakes, and more!
 
 ## File Included
-- **`git_github_cli_complete_guide.md`** – A comprehensive guide explaining how to interact with Git and GitHub using the command line.
+- **`git_github_cli_guide.md`** – A comprehensive guide explaining how to interact with Git and GitHub using the command line.
 
 ## What You’ll Learn
 - How to install and set up Git
